@@ -51,12 +51,11 @@ The model was built using:
 
 The following results were obtained from the simulation:
 
-- **Fig. 1:** Simulink Model of the Induction Motor
-- **Fig. 2:** Motor Speed at No Load Condition
-- **Fig. 3:** Motor Speed with Applied Load Torque
-- **Fig. 4:** Electromagnetic Torque vs. Time
-- **Fig. 5:** Stator Current Response
-- **Fig. 6:** Combined Simulation Results
+- Simulink Model of the Induction Motor
+- Motor Speed at No Load Condition
+- Motor Speed with Applied Load Torque
+- Electromagnetic Torque vs. Time
+- Stator Current Response
 
 ## 📌 Conclusion
 
@@ -65,18 +64,17 @@ This project successfully models and simulates an induction motor's dynamic beha
 ## 📂 Repository Structure
 
 ```
-📁 Dynamic_Model_Induction_Motor
- ┣ 📂 Simulink_Model  # Contains Simulink (.slx) files
- ┣ 📂 Results         # Contains generated simulation graphs
+📁 Dynamic_Model_of_an_Induction_Motor
+ ┣ 🔬 Simulation.slx  # Simulink (.slx) file
+ ┣ 🔬 induction_parameter.m # matlab file
  ┣ 📜 README.md       # Project documentation (this file)
- ┣ 📜 dynamic_model_report.pdf  # Project report
 ```
 
 ## 🚀 How to Run the Simulation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Dynamic_Model_Induction_Motor.git
+   git clone https://github.com/Michael-ola/Dynamic-Model-of-an-Induction-Motor.git
    ```
 2. **Open MATLAB and navigate to the project folder**
 3. **Run the Simulink model:** Open the `.slx` file and click **Run**
